@@ -1,0 +1,13 @@
+numpy==1.26.4
+Pillow==9.5.0
+opencv-python-headless==4.7.0.72
+paddlepaddle==2.6.2
+paddleocr==2.6.1.3
+fastapi
+uvicorn
+python-multipart
+flask
+flask-cors
+pytesseract
+opencv-python
+regex

@@ -1,0 +1,9 @@
+services:
+  ocr:
+    build: .
+    container_name: dznotaire_ocr
+    ports:
+      - "5005:5005"
+    volumes:
+      - .:/app
+    restart: unless-stopped
