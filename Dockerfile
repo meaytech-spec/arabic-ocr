@@ -50,4 +50,4 @@ COPY server.py /app/server.py
 
 EXPOSE 5005
 
-CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "5005"]
+CMD ["unicorn", "server:app", "--host", "0.0.0.0", "--port", "5005"]
