@@ -35,6 +35,7 @@ RUN pip install --no-cache-dir \
     flask-cors \
     pytesseract \
     uvicorn[standard] \
+    python-multipart \
     fastapi \
     imutils \
     Pillow \
