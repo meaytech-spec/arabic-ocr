@@ -34,7 +34,8 @@ RUN pip install --no-cache-dir \
     flask \
     flask-cors \
     pytesseract \
-    uvicorn \
+    uvicorn[standard] \
+    fastapi \
     imutils \
     Pillow \
     regex
