@@ -34,6 +34,7 @@ RUN pip install --no-cache-dir \
     flask \
     flask-cors \
     pytesseract \
+    uvicorn \
     imutils \
     Pillow \
     regex
@@ -50,4 +51,4 @@ COPY server.py /app/server.py
 
 EXPOSE 5005
 
-CMD ["unicorn", "server:app", "--host", "0.0.0.0", "--port", "5005"]
+CMD ["uvicorn", "server:app", "--host", "0.0.0.0", "--port", "8000"]
