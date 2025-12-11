@@ -24,11 +24,6 @@ RUN pip install --upgrade pip
 RUN pip install paddlepaddle==2.6.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install paddleocr==2.6.1.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-# -----------------------------------------------------
-# Install Torch (SEPARATE! REQUIRED!)
-# -----------------------------------------------------
-RUN pip install torch==2.0.0 torchvision==0.15.0
-
 
 # -----------------------------------------------------
 # Install other dependencies
