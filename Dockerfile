@@ -27,8 +27,8 @@ RUN pip install paddleocr==2.6.1.3 -i https://pypi.tuna.tsinghua.edu.cn/simple
 # -----------------------------------------------------
 # Install Torch (SEPARATE! REQUIRED!)
 # -----------------------------------------------------
-RUN pip install torch==2.0.0+cpu torchvision==0.15.0+cpu \
-    -f https://download.pytorch.org/whl/cpu
+RUN pip install torch==2.0.0 torchvision==0.15.0
+
 
 # -----------------------------------------------------
 # Install other dependencies
